@@ -6,6 +6,15 @@
 */
 @import url('./reset.css');
 @import url('./common.css');
+@import url('./css_partials/header.css');
+@import url('./css_partials/hero.css');
+@import url('./css_partials/about-us.css');
+@import url('./css_partials/our-yachts.css');
+@import url('./css_partials/advantages.css');
+@import url('./css_partials/rent-yacht.css');
+@import url('./css_partials/reviews.css');
+@import url('./css_partials/footer.css');
+@import url('./css_partials/mobile-form.css');
 :root {
   --font-family: 'Inter', sans-serif;
   --color-dark: #040306;
