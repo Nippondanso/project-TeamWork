@@ -4,7 +4,7 @@
             rgba(17, 19, 31, 0.8) 75.3%,
             rgba(17, 19, 31, 0.8) 98.27%),
         url("/img/Hero/mobile/image\ 2.jpg"); */
-        background-image: url("/img/Hero/mobile/image\ 2.jpg");
+        background-image: url("/img/Hero/mobile/image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -133,7 +133,7 @@
                 rgba(17, 19, 31, 0.8) 98.27%
                 ),
             url("/img/Hero/mobile/image\ 2@2x.jpg"); */
-        background-image: url("/img/Hero/mobile/image\ 2@2x.jpg");
+        background-image: url("/img/Hero/mobile/image@2x.jpg");
 
         background-repeat: no-repeat;
         background-position: center;
@@ -152,7 +152,7 @@
                 rgba(17, 19, 31, 0.8) 75.3%,
                 rgba(17, 19, 31, 0.8) 98.27%),
             url("/img/Hero/tablet/image\ 2.jpg"); */
-            background-image: url("/img/Hero/tablet/image\ 2.jpg");
+            background-image: url("/img/Hero/tablet/image.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -167,7 +167,7 @@
                 rgba(17, 19, 31, 0.8) 75.3%,
                 rgba(17, 19, 31, 0.8) 98.27%),
                 url("/img/Hero/tablet/image\ 2.jpg"); */
-            background-image: url("/img/Hero/tablet/image\ 2.jpg");
+            background-image: url("/img/Hero/tablet/image.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -184,7 +184,7 @@
                 rgba(17, 19, 31, 0.8) 75.3%,
                 rgba(17, 19, 31, 0.8) 98.27%),
             url("/img/Hero/tablet/image\ 2.jpg"); */
-            background-image: url("/img/Hero/tablet/image\ 2.jpg");
+            background-image: url("/img/Hero/tablet/image.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -199,7 +199,7 @@
                 rgba(17, 19, 31, 0.8) 75.3%,
                 rgba(17, 19, 31, 0.8) 98.27%),
             url("/img/Hero/tablet/image\ 2@2x.jpg"); */
-            background-image:url("/img/Hero/tablet/image\ 2@2x.jpg");
+            background-image:url("/img/Hero/tablet/image@2x.jpg");
             
         background-repeat: no-repeat;
         background-position: center;
@@ -217,7 +217,7 @@
                 rgba(17, 19, 31, 0.8) 75.3%,
                 rgba(17, 19, 31, 0.8) 98.27%),
             url("/img/Hero/desktop-small/image\ 1.jpg"); */
-            background-image: url("/img/Hero/desktop-small/image\ 1.jpg");
+            background-image: url("/img/Hero/desktop-small/image.jpg");
 
         background-repeat: no-repeat;
         background-position: center;
@@ -233,7 +233,7 @@
                 rgba(17, 19, 31, 0.8) 75.3%,
                 rgba(17, 19, 31, 0.8) 98.27%),
             url("/img/Hero/desktop-small/image\ 1@2x.jpg"); */
-            background-image: url("/img/Hero/desktop-small/image\ 1@2x.jpg");
+            background-image: url("/img/Hero/desktop-small/image@2x.jpg");
 
         background-repeat: no-repeat;
         background-position: center;
@@ -251,7 +251,7 @@
                 rgba(17, 19, 31, 0.8) 75.3%,
                 rgba(17, 19, 31, 0.8) 98.27%),
             url("/img/Hero/desktop-big/image\ 1.jpg"); */
-            background-image: url("/img/Hero/desktop-big/image\ 1.jpg");
+            background-image: url("/img/Hero/desktop-big/image.jpg");
 
         background-repeat: no-repeat;
         background-position: center;
@@ -267,7 +267,7 @@
                 rgba(17, 19, 31, 0.8) 75.3%,
                 rgba(17, 19, 31, 0.8) 98.27%),
             url("/img/Hero/desktop-big/image\ 1@2x.jpg"); */
-            background-image: url("/img/Hero/desktop-big/image\ 1@2x.jpg");
+            background-image: url("/img/Hero/desktop-big/image@2x.jpg");
 
         background-repeat: no-repeat;
         background-position: center;
