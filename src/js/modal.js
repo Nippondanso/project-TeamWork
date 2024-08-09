@@ -1,20 +1,14 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    const modal = document.querySelector('.backdrop');
-    const closeModalBtn = document.querySelector('.modal-close-bth');
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector('[data-menu-open]'),
+    closeModalBth: document.querySelector('[data-menu-close]'),
+    modal: document.querySelector('[data-modal]'),
+  };
 
-    // Функція для закриття модального вікна
-    const closeModal = () => {
-        modal.style.display = 'none';
-    };
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBth.addEventListener('click', toggleModal);
 
-    // Додаємо обробник події для кнопки закриття
-    closeModalBtn.addEventListener('click', closeModal);
-
-    // Відкриття модального вікна для демонстрації 
-    modal.style.display = 'flex';
-
-    function toggleModal() {
-    // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
+  function toggleModal() {
     refs.modal.classList.toggle('is-open');
   }
-});
+})();
