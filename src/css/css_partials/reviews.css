@@ -13,7 +13,6 @@
 }
 
 .reviews-title {
-    font-family: 'Inter';
     font-style: normal;
     width: 335px;
     text-align: center;
@@ -31,7 +30,6 @@
 .reviews-paragraf {
     width: 335px;
     height: 42px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -71,7 +69,6 @@
 }
 
 .reviewer-name {
-font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -82,7 +79,6 @@ color: #040306;
 }
 
 .review {
-    font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
