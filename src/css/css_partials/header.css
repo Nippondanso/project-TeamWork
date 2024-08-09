@@ -1,11 +1,4 @@
 /* mobile */
-.container {
-  max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /* header */
 .header-border {
@@ -33,7 +26,6 @@
 }
 
 .logo-text {
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
@@ -55,13 +47,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 28px;
-    padding-right: 28px;
-    margin-left: auto;
-    margin-right: auto;
-  }
   /* Header */
   .mob-knob-btn {
     display: none;
@@ -130,7 +115,8 @@
 
   .btn-brd:hover,
   .btn-brd:focus {
-    background: #1b414b;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #1b414b;
     border: none;
   }
 
@@ -140,20 +126,19 @@
     align-items: center;
     gap: 10px;
   }
+
   .icon-color {
     fill: #1b414b;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .icon-color:hover,
+  .icon-color:focus {
+    fill: #062730;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .header-container {
     width: 1080px;
   }
@@ -167,15 +152,12 @@
   }
   .btn-brd.ntl:hover,
   .btn-brd.ntl:focus {
-    background: #1b414b;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #1b414b;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-
   .header-container {
     width: 1240px;
   }
