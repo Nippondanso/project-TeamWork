@@ -58,8 +58,8 @@
     padding: 0;
 }
 
-.modal-nav {
-    padding-top: 201px;
+.modal-second{
+    margin-top: 201px;
 }
 
 .modal-nav-list {
@@ -127,4 +127,10 @@
 .modal-social-icon:hover,
 .modal-social-icon:focus {
     fill: rgba(251, 251, 251, 0.8);
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
 }
