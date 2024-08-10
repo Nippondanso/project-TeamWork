@@ -1,63 +1,3 @@
-/* .footer-border {
-  position: relative;
-  background-color: #1b414b;
-  color: white;
-  border-radius: 24px 24px 0px 0px;
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 355px;
-  height: 412px;
-}
-
-.futer-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.logo-futer {
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: -0.03em;
-  color: #fbfbfb;
-  padding: 40px 0;
-  display: block;
-  margin-right: 37px;
-}
-
-.nav-futer {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.address-futer {
-  font-style: normal;
-  display: block;
-}
-
-.futer-navig {
-  display: flex;
-  align-items: center;
-}
-
-
-
-
-
-@media screen and (min-width: 768px){
-.footer-border {
- margin-left: 16px;
- margin-right: 16px;
- width: 736px;
- height: 418px;
-} 
-} */
-
-/* ==================================== */
-
 .footer-border {
   background-color: #0e1823;
 }
@@ -102,7 +42,7 @@
 .address-footer {
   font-style: normal;
   display: block;
-  margin: auto;
+  margin: 80px auto 40px;
 }
 
 .footer-navig {
@@ -145,7 +85,6 @@
   flex-direction: row;
   align-items: center;
   gap: 11px;
-  padding-top: 83px;
 }
 
 .icon-color {
@@ -158,18 +97,17 @@
   fill: #062730;
 }
 
-.text-tx {
+.text {
+  margin-bottom: 82px;
+  padding: 0px 8px;
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
-  line-height: 1;
+  line-height: 100%;
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  width: 279px;
-  height: 72px;
-  margin: 40px auto;
 }
-
 .policy-text {
   display: flex;
 
@@ -186,28 +124,34 @@
 .pol-text {
   margin-left: auto;
 }
+@media screen and (min-width: 468px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 96px;
+  }
+  .nav-footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+  }
+  .footer-navig {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .address-footer {
+    font-style: normal;
+    display: block;
+    margin: 0;
+  }
+}
 
 @media screen and (min-width: 768px) {
-  .footer-border {
-    margin-left: 16px;
-    margin-right: 16px;
-    width: 736px;
-    height: 418px;
-  }
-
-  .address-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .text-tx {
-  }
-
-  .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+  .text {
+    font-size: 32px;
+    max-width: 640px;
+    margin: 0 auto 99px;
   }
 }
