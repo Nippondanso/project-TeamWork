@@ -1,7 +1,7 @@
 .footer-border {
   background-color: #0e1823;
 }
-.container .footer-border{
+ .footer-border .container {
 padding: 0 10px;
 }
 .footer-wrapper {
@@ -19,8 +19,9 @@ padding: 0 10px;
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+ align-items: baseline;
   justify-content: space-between;
+  
 }
 
 .logo-footer {
@@ -29,7 +30,7 @@ padding: 0 10px;
   letter-spacing: -0.03em;
   color: #fbfbfb;
   display: block;
-  margin-right: 37px;
+ 
   padding-bottom: 24px;
 }
 
@@ -48,8 +49,11 @@ padding: 0 10px;
 .footer-navig {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 295px;
   
 }
+
 
 .nav-footer-link {
   position: relative;
@@ -76,7 +80,8 @@ padding: 0 10px;
 .btn-nav:hover,
 .btn-nav:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #fbfbfb;;
+  background-color: #fbfbfb;
+  color: #1b414b;
   border: none;
 }
 
@@ -104,7 +109,7 @@ padding: 0 10px;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: -0.02em;
+   letter-spacing: 0.02em;
   text-align: center;
   color: #fbfbfb;
 }
@@ -127,7 +132,7 @@ padding: 0 10px;
 
 
 @media screen and (min-width: 768px) {
- .container .footer-border{
+ .footer-border .container{
     padding:0 16px;
 }
      .footer-container {
@@ -177,7 +182,7 @@ padding: 0 10px;
   }
 }
 @media screen and (min-width: 1280px) {
-     .container .footer-border{
+     .footer-border .container{
     padding:0 25px;
 }
   .footer-wrapper {
