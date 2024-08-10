@@ -35,6 +35,8 @@
   height: 42px;
   background-color: transparent;
   margin-bottom: 18px;
+  outline: transparent;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rent-yacht-input::placeholder {
@@ -42,16 +44,9 @@
   padding: 14px 230px 14px 0;
 }
 
-.rent-yacht-input:hover,
-.rent-yacht-input:focus {
-  border: 1px solid rgba(251, 251, 251, 0.5);
-  outline: transparent;
-}
-
-.rent-yacht-textarea:hover,
+.rent-yacht-input:focus,
 .rent-yacht-textarea:focus {
   border: 1px solid rgba(251, 251, 251, 0.5);
-  outline: transparent;
 }
 
 .rent-yacht-textarea {
@@ -67,6 +62,7 @@
   background-color: transparent;
   margin-bottom: 40px;
   resize: none;
+  outline: transparent;
 }
 
 .rent-yacht-textarea::placeholder {
@@ -89,6 +85,8 @@
   margin-bottom: 80px;
   cursor: pointer;
   display: block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .submit-button:active,
