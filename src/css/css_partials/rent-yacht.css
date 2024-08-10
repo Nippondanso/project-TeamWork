@@ -43,6 +43,13 @@
 .rent-yacht-input:hover,
 .rent-yacht-input:focus {
   border: 1px solid rgba(251, 251, 251, 0.5);
+  outline: transparent;
+}
+
+.rent-yacht-textarea:hover,
+.rent-yacht-textarea:focus {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+  outline: transparent;
 }
 
 .rent-yacht-textarea {
@@ -148,7 +155,6 @@
 @media screen and (min-width: 1280px) {
   .rent-yacht-container {
     flex-direction: row-reverse;
-    padding: 0 50px;
     max-width: 1180px;
   }
 
