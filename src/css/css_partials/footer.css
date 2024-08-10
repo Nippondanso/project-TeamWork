@@ -1,8 +1,8 @@
 .footer-border {
   background-color: #0e1823;
 }
- .footer-border .container {
-padding: 0 10px;
+.footer-border .container {
+  padding: 0 10px;
 }
 .footer-wrapper {
   position: relative;
@@ -19,9 +19,8 @@ padding: 0 10px;
 .footer-container {
   display: flex;
   flex-wrap: wrap;
- align-items: baseline;
+  align-items: baseline;
   justify-content: space-between;
-  
 }
 
 .logo-footer {
@@ -30,7 +29,7 @@ padding: 0 10px;
   letter-spacing: -0.03em;
   color: #fbfbfb;
   display: block;
- 
+
   padding-bottom: 24px;
 }
 
@@ -51,9 +50,7 @@ padding: 0 10px;
   align-items: center;
   justify-content: space-between;
   width: 295px;
-  
 }
-
 
 .nav-footer-link {
   position: relative;
@@ -75,11 +72,11 @@ padding: 0 10px;
   width: 66px;
   height: 40px;
   background: rgba(251, 251, 251, 0.3);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-nav:hover,
 .btn-nav:focus {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #fbfbfb;
   color: #1b414b;
   border: none;
@@ -99,7 +96,7 @@ padding: 0 10px;
 
 .icon-color:hover,
 .icon-color:focus {
-  fill:rgba(251, 251, 251, 0.8);
+  fill: rgba(251, 251, 251, 0.8);
 }
 
 .text {
@@ -109,7 +106,7 @@ padding: 0 10px;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-   letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fbfbfb;
 }
@@ -130,17 +127,20 @@ padding: 0 10px;
   margin-left: auto;
 }
 
-
 @media screen and (min-width: 768px) {
- .footer-border .container{
-    padding:0 16px;
-}
-     .footer-container {
+  .btn-nav {
+    width: 91px;
+  }
+
+  .footer-border .container {
+    padding: 0 16px;
+  }
+  .footer-container {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 96px;
   }
-    .footer-wrapper {
+  .footer-wrapper {
     padding-bottom: 20px;
     padding-top: 50px;
     padding-right: 48px;
@@ -182,11 +182,10 @@ padding: 0 10px;
   }
 }
 @media screen and (min-width: 1280px) {
-     .footer-border .container{
-    padding:0 25px;
-}
+  .footer-border .container {
+    padding: 0 25px;
+  }
   .footer-wrapper {
-   
     padding-bottom: 20px;
     padding-top: 50px;
     padding-right: 75px;
