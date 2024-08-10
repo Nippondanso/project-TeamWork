@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
   
   <script type="module" crossorigin src="/project-TeamWork/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/project-TeamWork/assets/index-23beff69.css">
+  <link rel="stylesheet" href="/project-TeamWork/assets/index-2e0d30f1.css">
 </head>
 
 <body>
@@ -185,7 +185,31 @@
   </div>
 </section>
 
-    
+    <section class="rent-yacht">
+      <div class="container rent-yacht-container">
+        <div class="rent-yacht-text-form">
+          <h2 class="rent-yacht-text" id="rent-yacht">Rent a yacht now</h2>
+          <form class="rent-yacht-form">          
+              <input type="text" name="user-name" class="rent-yacht-input" placeholder="Full Name" required>
+              <input type="email" name="user-email" class="rent-yacht-input" placeholder="Email" 
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+              <input type="tel" name="user-phone" class="rent-yacht-input" placeholder="Phone number" 
+              pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$" title = "Вкажіть номер телефону у форматі +38-000-000-00-00" required>
+              <textarea name="user-comment" class="rent-yacht-textarea" placeholder="Comment" rows="4"></textarea>          
+              <button type="submit" class="submit-button">Send</button>
+          </form>
+        </div>
+        <picture>
+            <source srcset="/project-TeamWork/assets/rent-yacht-image-7644afe9.jpg 1x, /project-TeamWork/assets/rent-yacht-image@2x-31ecf484.jpg 2x" media="(min-width: 1440px)" />
+            <source srcset="/project-TeamWork/assets/rent-yacht-image-small-438fd35a.jpg 1x, /project-TeamWork/assets/rent-yacht-image-small@2x-46fa50b2.jpg 2x" media="(min-width: 1280px)" />
+            <source srcset="/project-TeamWork/assets/rent-yacht-image-small-438fd35a.jpg 1x, /project-TeamWork/assets/rent-yacht-image-small@2x-46fa50b2.jpg 2x" media="(min-width: 768px)" />
+            <source srcset="/project-TeamWork/assets/rent-yacht-image-mob-595613fc.jpg 1x, /project-TeamWork/assets/rent-yacht-image-mob@2x-0bae5bda.jpg 2x" media="(max-width: 767px)" />       
+            <img src="/project-TeamWork/assets/rent-yacht-image-mob-595613fc.jpg" alt="Luxury yacht" width="335" height="412"
+                class="rent-yacht-img" />
+        </picture>
+    </div>
+</section>
+
     
   </main>
   
