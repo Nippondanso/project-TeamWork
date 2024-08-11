@@ -39,15 +39,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 32px;
-  padding-bottom: 16px;
+  margin: 0 32px 32px;
   position: relative;
 }
 
 .our-yachts-card::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  display: block;
+  top: 32px;
   width: 272px;
   border-bottom: 1px solid rgba(4, 3, 6, 0.1);
 }
@@ -73,7 +73,7 @@
 .our-yachts-features {
   display: flex;
   justify-content: space-between;
-  margin: 16px 32px 32px 32px;
+  margin: 0px 32px 32px 32px;
 }
 
 .our-yachts-features-list {

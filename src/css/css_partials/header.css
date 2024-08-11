@@ -3,10 +3,9 @@
 /* header */
 .header-border {
   position: absolute;
-  left: 1%;
-  right: 1%;
   top: 20px;
-  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%);
   height: 42px;
 }
 
@@ -45,6 +44,13 @@
 .mob-knob-icon {
   display: block;
   stroke: #1b414b;
+}
+
+@media screen and (max-width: 374px) {
+  .header-container {
+    min-width: 0;
+    width: 280px;
+  }
 }
 
 @media screen and (min-width: 768px) {
