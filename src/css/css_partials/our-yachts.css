@@ -136,6 +136,12 @@
   border: none;
 }
 
+@media screen and (max-width: 374px) {
+  .our-yachts-item {
+    width: 280px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .our-yachts-section {
     padding: 150px 0;
