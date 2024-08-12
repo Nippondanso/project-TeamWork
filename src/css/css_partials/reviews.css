@@ -41,8 +41,10 @@
   margin-bottom: 40px;
 }
 
-.reviews-box {
-  display: flex;
+.reviews-box,
+.carousel {
+  /* display: flex; */
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -50,7 +52,8 @@
   margin-top: 40px;
 }
 
-.reviews-container {
+.reviews-container,
+.carousel-cell {
   background-color: #fbfbfb;
   width: 335px;
   height: 282px;
@@ -62,8 +65,10 @@
 }
 
 .reviews-container-1,
-.reviews-container-2 {
-  display: none;
+.reviews-container-2,
+.carousel-cell {
+  /* display: none; */
+  margin-right: 18px;
 }
 
 .reviewer-photo {
@@ -99,13 +104,20 @@
 }
 
 @media screen and (max-width: 374px) {
-  .reviews-container {
+  .reviews-container,
+  .carousel-cell {
     width: 280px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .reviews-box {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .reviews-box,
+  .carousel {
     flex-direction: row;
     gap: 32px;
   }
@@ -120,12 +132,14 @@
     font-size: 14px;
     line-height: 18px;
   }
-  .reviews-container {
+  .reviews-container,
+  .carousel-cell {
     width: 336px;
     height: 282px;
     padding: 32px 20px;
   }
-  .reviews-container-1 {
+  .reviews-container-1,
+  .carousel-cell {
     background-color: #fbfbfb;
     width: 335px;
     height: 282px;
@@ -135,6 +149,7 @@
     padding: 32px 20px;
     border-radius: 24px;
     gap: 8px;
+    margin-right: 32px;
   }
   .reviews {
     padding: 150px 32px;
@@ -142,11 +157,17 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .reviews-box {
+  .container {
+    max-width: 1280px;
+    padding: 0 50px;
+  }
+  .reviews-box,
+  .carousel {
     flex-direction: row;
     gap: 26px;
   }
-  .reviews-container-2 {
+  .reviews-container-2,
+  .carousel-cell {
     background-color: #fbfbfb;
     width: 376px;
     height: 282px;
@@ -156,12 +177,14 @@
     padding: 32px 28px;
     border-radius: 24px;
     gap: 8px;
+    margin-right: 26px;
   }
   .reviews-title {
     width: 854px;
   }
   .reviews-container,
-  .reviews-container-1 {
+  .reviews-container-1,
+  .carousel-cell {
     width: 376px;
     padding: 32px 28px;
   }
@@ -171,16 +194,29 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
   .reviews-container,
   .reviews-container-1,
-  .reviews-container-2 {
+  .reviews-container-2,
+  .carousel-cell {
     width: 392px;
     padding: 32px 36px;
+    margin-right: 32px;
   }
-  .reviews-box {
+  .reviews-box,
+  .carousel {
     gap: 32px;
   }
   .reviews {
     padding: 150px 100px;
   }
+}
+
+/* external css: fi.css */
+
+.carousel {
+  overflow: hidden;
 }
