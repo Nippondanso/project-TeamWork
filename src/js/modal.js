@@ -7,17 +7,18 @@
   const openLogo = '<use href=\"/img/icons.svg#menu\"></use>';
   const closeLogo = '<use href="./img/icons.svg#close"></use>';
 
-  refs.openModalBtn.addEventListener('click', () => {
-    toggleModal();
-    switchModalLogo();
-  });
+  refs.openModalBtn.addEventListener('click',
+    handleOpenModal
+  );
 
   refs.modalBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      toggleModal();
-      switchModalLogo();
-    });
+    btn.addEventListener('click', handleOpenModal);
   });
+
+  function handleOpenModal() {
+    toggleModal();
+    switchModalLogo();
+  }
 
   function toggleModal() {
     refs.modal.classList.toggle('is-open');
