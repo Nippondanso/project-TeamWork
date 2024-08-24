@@ -15,10 +15,15 @@
 @import url('./css_partials/reviews.css');
 @import url('./css_partials/footer.css');
 @import url('./css_partials/mobile-form.css');
+
 :root {
   --font-family: 'Inter', sans-serif;
   --color-dark: #040306;
   --color-dark-blue: #0e1823;
   --color-dark-green: #1b414b;
   --color-light: #fbfbfb;
+}
+
+.body {
+  position: relative;
 }

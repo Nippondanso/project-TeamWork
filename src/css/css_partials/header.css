@@ -2,10 +2,11 @@
 
 /* header */
 .header-border {
-  position: absolute;
+  position: sticky;
   top: 20px;
   left: 50%;
-  transform: translate(-50%);
+  /* transform: translate(-50%); */
+  z-index: 999;
   height: 42px;
 }
 
@@ -117,9 +118,7 @@
     background: rgba(27, 65, 75, 0.5);
   }
 
-  .btn-brd.ntl {
-    background: #1b414b;
-  }
+ 
 
   .btn-brd:hover,
   .btn-brd:focus {
