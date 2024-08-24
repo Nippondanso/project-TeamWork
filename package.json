@@ -12,7 +12,7 @@
     "vite": "^4.5.2",
     "glob": "^8.1.0"
   },
-  "author": "Nikita Ishchenko <nektoniks@gmail.com>",
+  "author": "Kopaiev Maksym <mkopaev@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
